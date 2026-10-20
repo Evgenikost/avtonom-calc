@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <style>
+      .bg { fill: #2f6d4f; }
+      .sun { fill: #e3a35c; }
+      .bolt { fill: #f5f3ee; }
+      @media (prefers-color-scheme: dark) {
+        .bg { fill: #15201b; }
+      }
+    </style>
+  </defs>
+  <rect class="bg" x="2" y="2" width="60" height="60" rx="14"/>
+  <circle class="sun" cx="32" cy="24" r="11"/>
+  <g class="sun" stroke="#e3a35c" stroke-width="3" stroke-linecap="round">
+    <line x1="32" y1="6" x2="32" y2="2"/>
+    <line x1="15" y1="24" x2="11" y2="24"/>
+    <line x1="19.4" y1="11.4" x2="16.6" y2="8.6"/>
+  </g>
+  <path class="bolt" d="M35 20 L24 38 L31 38 L28 52 L42 32 L34 32 Z"/>
+</svg>
